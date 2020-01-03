@@ -1,0 +1,7 @@
+body {
+    background-color: orange;
+}
+table {width: 100%;}
+table {border: 1px solid black;} 
+th {border: 1px solid black;}
+td {border: 1px solid black;}
