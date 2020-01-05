@@ -1,7 +1,19 @@
 body {
-    background-color: orange;
+    background-color: orange;  
 }
+caption { text-decoration: underline;}/*не работает*/
+caption {text-align:  center;}/*не работает*/
+caption {font-size: x-large;}/*не работает*/
+
 table {width: 100%;}
 table {border: 1px solid black;} 
+table {border-collapse: collapse;}
 th {border: 1px solid black;}
 td {border: 1px solid black;}
+
+h1, h2, h3 {font-style: italic;}
+h1, h2, h3 {font-size: x-large;}
+
+.family {font-style: italic; font-size: large; text-decoration: underline;}
+.education {font-style: italic; font-size: large; text-decoration: underline;}/*не работает*/
+.contakts {font-style: italic; font-size: large; text-decoration: underline;}
